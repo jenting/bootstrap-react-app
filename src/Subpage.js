@@ -7,14 +7,6 @@ const Subpage = () => {
 
   return (
     <div>
-      <AppBar position="static">
-        <Toolbar>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            My App
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      
       <h2>AT Subpage: {name}</h2>
       {/* Add content specific to the subpage */}
     </div>
