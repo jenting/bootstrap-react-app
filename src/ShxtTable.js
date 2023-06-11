@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { AppBar, Toolbar, Typography } from '@mui/material';
 
 const ShxtTable = () => {
@@ -12,6 +12,13 @@ const ShxtTable = () => {
 
   return (
     <div>
+      <AppBar position="static">
+        <Toolbar>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          Main Page
+          </Typography>
+        </Toolbar>
+      </AppBar>
     <table>
       <thead>
         <tr>
